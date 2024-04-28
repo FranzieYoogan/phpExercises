@@ -1,0 +1,18 @@
+.containerAll {
+
+    display: flex;
+
+    justify-content: center;
+}
+
+.containerItems {
+
+    margin-top: 5em;
+
+}
+
+button {
+
+    width: 100%;
+
+}
