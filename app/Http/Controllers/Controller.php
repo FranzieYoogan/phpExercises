@@ -64,4 +64,23 @@ class Controller extends BaseController
 
     }
 
+    public function hourtominutes(Request $request) {
+
+        $inputValue = $request->input('inputValue');
+
+        if($inputValue > 0) {
+
+            $convert = $inputValue * 60;
+
+            return view('hourtominutes', ['convert' => $convert]);
+
+        } else {
+            $error = true;
+
+            return view('hourtominutes', ['error' => $error]);
+
+        }
+
+    }
+
 }

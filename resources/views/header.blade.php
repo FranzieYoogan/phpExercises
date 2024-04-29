@@ -31,7 +31,7 @@
                 <a class="nav-link" href="/agetodays">Age To Days</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                <a class="nav-link" href="/hourtominutes">Hour To Minutes</a>
               </li>
             </ul>
           </div>

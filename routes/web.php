@@ -27,8 +27,14 @@ Route::get('/agetodays', function () {
     return view('agetodays');
 });
 
+Route::get('/hourtominutes', function () {
+    return view('hourtominutes');
+});
+
 
 
 Route::post('/isnumber', [Controller::class, 'isNumber']);
 
 Route::post('/agetodays', [Controller::class, 'agetodays']);
+
+Route::post('/hourtominutes', [Controller::class, 'hourtominutes']);
