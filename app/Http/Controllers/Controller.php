@@ -40,4 +40,28 @@ class Controller extends BaseController
 
     }
 
+    public function agetodays(Request $request) {
+
+        $year = $request->input('year');
+        $month = $request->input('month');
+        $day = $request->input('day');
+        $result = $request->input('result');
+
+
+        if($year > 0 && $month > 0 && $day > 0) {
+
+            $convert = ($year * 366) + ($month * 30) + $day;
+
+            return view('agetodays', ['convert' => $convert]);
+
+        } else {
+
+            $error = true;
+
+            return view('agetodays', ['error' => $error]);
+        }
+
+
+    }
+
 }

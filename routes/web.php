@@ -23,5 +23,12 @@ Route::get('/isnumber', function () {
     return view('isnumber');
 });
 
+Route::get('/agetodays', function () {
+    return view('agetodays');
+});
+
+
 
 Route::post('/isnumber', [Controller::class, 'isNumber']);
+
+Route::post('/agetodays', [Controller::class, 'agetodays']);

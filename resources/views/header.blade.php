@@ -28,7 +28,7 @@
                 <a class="nav-link" href="/isnumber">is a Number?</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Pricing</a>
+                <a class="nav-link" href="/agetodays">Age To Days</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link disabled" aria-disabled="true">Disabled</a>
